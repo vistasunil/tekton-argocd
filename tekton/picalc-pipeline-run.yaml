@@ -2,6 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
   generateName: picalc-pr-
+  name: pr1
 spec:
   pipelineRef:
     name: build-and-deploy-pipeline
