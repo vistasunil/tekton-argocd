@@ -7,7 +7,7 @@ spec:
     name: build-and-deploy-pipeline
   params:
     - name: gitUrl
-      value: https://github.com/IBM/tekton-tutorial.git
+      value: https://github.com/vistasunil/tekton-argocd.git
     - name: gitRevision
       value: beta-update
     - name: pathToYamlFile
