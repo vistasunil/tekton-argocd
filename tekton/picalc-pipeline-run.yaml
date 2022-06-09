@@ -10,7 +10,7 @@ spec:
     - name: gitUrl
       value: https://github.com/vistasunil/tekton-argocd.git
     - name: gitRevision
-      value: beta-update
+      value: master
     - name: pathToYamlFile
       value: "kubernetes/picalc.yaml"
     - name: imageUrl
